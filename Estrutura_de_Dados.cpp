@@ -147,7 +147,7 @@ if (cin.fail() || opcao < 1 || opcao > 5) {
  
 int main() {
     SetConsoleOutputCP(CP_UTF8);
-    const int capacidadeMaxima = 1;
+    const int capacidadeMaxima = 5;
     No* fila_livros_espera = nullptr;
     No* fim_fila = nullptr;
     No* prateleira1 = nullptr;
